@@ -1,0 +1,58 @@
+.root {
+    -fx-background-color: #f5f5dc;
+    -fx-padding: 30;
+}
+
+.dialog-bubble {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-border-color: #4b5320;
+    -fx-border-width: 3;
+    -fx-padding: 15;
+    -fx-translate-y: 20;
+    -fx-margin-bottom: 0;
+}
+
+.kentin-text {
+    -fx-font-family: "Segoe UI", Tahoma, sans-serif;
+    -fx-font-size: 16px;
+    -fx-text-fill: #3e2723;
+    -fx-font-weight: bold;
+    -fx-text-alignment: CENTER;
+}
+
+.title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4b5320;
+}
+
+.grid-pane {
+    -fx-background-color: #3e2723;
+    -fx-padding: 3;
+    -fx-hgap: 2;
+    -fx-vgap: 2;
+    -fx-border-color: #4b5320;
+    -fx-border-width: 5;
+}
+
+.text-field {
+    -fx-pref-width: 60;
+    -fx-pref-height: 60;
+    -fx-alignment: center;
+    -fx-font-size: 20;
+    -fx-background-radius: 0;
+    -fx-background-color: white;
+}
+
+.button-help, .button-generic {
+    -fx-pref-width: 160;
+    -fx-pref-height: 45;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.button-help { -fx-background-color: #8bc34a; }
+.button-generic { -fx-background-color: #6d4c41; }
