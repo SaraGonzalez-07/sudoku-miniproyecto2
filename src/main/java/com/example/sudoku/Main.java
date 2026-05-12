@@ -19,4 +19,3 @@ public class Main extends Application {
 }
 /* Hola caracola
 * Te parecen bien 47 cm*/
-/* No, no gracias :) .-*/
